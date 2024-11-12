@@ -3,6 +3,8 @@
   html {
     scroll-behavior: smooth; /* Habilita el desplazamiento suave */
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .whatsapp-btn {
