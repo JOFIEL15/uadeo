@@ -16,11 +16,6 @@
     <hr style="border: 13px solid #802745;">
 
 
-    <a href="https://api.whatsapp.com/send?phone=526959562599&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20casas%20en%20venta."
-    class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-  </a>
-
       <!-- Barra de navegación -->
       <nav class="p-4 mt-0 bg-white">
         <div class="flex items-center justify-between mx-auto max-w-7xl">
@@ -47,6 +42,8 @@
             </div>
         </div>
     
+
+         
         <!-- Menú desplegable en móvil -->
         <div class="hidden md:hidden" id="mobileMenu" data-aos="fade-up">
             <div class="mt-4 space-y-4 text-center">
@@ -138,6 +135,24 @@
     });
 </script>
 <script src="tailwind.config.js"></script>
+<script
+    src='https://sleekflow.io/whatsapp-button.js'
+    async
+    onLoad="whatsappButton({
+    buttonName:'',
+    buttonIconSize: '30',
+    brandImageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsN4KSDeAurb7o0SC_3Ylr8QwgEsjV8Lh2w&s',
+    brandName:'Uadeo administracion rural',
+    brandSubtitleText:'Por lo general, responde dentro de un día',
+    buttonSize:'large',
+    buttonPosition:'right',
+    callToAction:'Iniciar chat',
+    phoneNumber:'526951084937',
+    welcomeMessage:'Hola 👋',
+    prefillMessage:'¡Hola, quiero saber más sobre la carrera!',
+    })"
+    >
+</script>
 
 </body>
 
